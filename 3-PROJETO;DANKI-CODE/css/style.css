@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+header{
+    width:100%;
+    padding:14px 2%;
+    padding-bottom:23px;
+    background-color: rgb(148, 129, 117);
+}
+.container{
+    width:100%;
+    max-width:1130px;
+    margin:0 auto;
+    padding-top:3px;
+    
+}
+.clear{
+    clear: both;
+}
+.logo-1{
+    
+    float:left;
+    width:200px;
+    height:80px;
+    background-image:url('../image/logo1.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.logo-2{
+    margin-top:8px;
+    float:right;
+    width:180px;
+    height:70px;
+    background-image:url('../image/logo2.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+section.cover-form{
+    width:100%;
+    padding:0 2%;
+}
+.bg{
+    height:500px;
+    background-position:center;
+    background-image:url(../image/banner.jpg);
+    background-size:cover;
+}
+
+.form-container{
+    z-index:5;
+    float:right;
+    width:400px;
+    height:110%;
+    background-color: rgba(246, 237, 237, 0.5);
+    margin-right:30px;
+    position:relative;
+    top:-5%;
+    box-shadow: 3px 3px 25px 20px rgb(100,100,100,0.7);
+    
+}
+
+.form-container h2{
+    font-weight:normal;
+    padding:30px 15px;
+    color:black;
+    font-size:18px;
+    background-color: rgb(210,210,210,0.6);
+}
+
+
+.form-container form{
+    margin-top:0px;
+    padding:17px;
+}
+.form-container form p{
+    font-size:14px;
+    color:#525252;
+    font-weight:bold;
+}
+
+.form-wrap:not(:first-child){
+    margin-top:33px;
+    font-weight:bold;
+}
+
+
+
+.form-container form input[type=text],
+.form-container form input[type=email],
+.form-container form input[type=tel]{
+    width:100%;
+    border:1px solid #ccc;
+    height:40px;
+    padding-left:10px;
+    background-color: rgba(255, 251, 251,0.3);
+}
+.form-container input[type=submit]{
+    width:100%;
+    max-width:350px;
+    position:relative;
+    left:2%;
+    height:60px;
+    margin-top:14px;
+    font-size:25px;
+    background-color:#033c50;
+    text-transform:uppercase;
+    color:white;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+div.container-arrow{
+   display:inline-block;
+   text-align:center;
+   z-index:3;
+   position:relative;
+   left:calc(50%);
+   transform:translateX(-50%);
+   top:-3%;
+   
+}
+div.container-arrow .arrow img{
+    display:inline-block;
+}
+
+
+section.chamada > .container{
+    background-color:rgb(158, 139, 126);
+}
+
+
+section.chamada{
+    z-index:1;
+    width:100%;
+    position:relative;
+    top:-65px;
+    text-align:center;
+    
+    
+}
+section.chamada h2{
+    width:96%;
+    max-width:750px;
+    padding-top: 57px;
+    padding-bottom:5px;
+    display:inline-block;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-weight:normal;
+    
+}
+section.chamada .container p{
+    text-align: center;
+    display: inline-block;
+    font-size:23px;
+    padding-bottom:52px;
+    width:96%;
+    max-width:950px;
+    
+}
+.mosaico{
+    position: relative;
+    top:-65px;
+}
+
+
+.flex-mosaico{
+    display:flex;
+}
+
+.item-1-mosaico{
+    background-position:center;
+    background-size:cover;
+    width:60%;
+    
+}
+
+.item-2-mosaico{
+    width:40%;
+    padding:65px 30px;
+    background-color:#eeebda;
+    font-size:19px; 
+}
+.margin-10px{
+    margin-top: 10px;
+}
+
+.mosaico-espaco{
+    width: 100%;
+    padding:100px 40px;
+    text-align:center; 
+    background-color:#f0e3cf;   
+}
+.mosaico-espaco p{
+    font-size:20px;
+
+}
+footer{
+    height:100%;
+    max-height:300px;
+}
+footer .footer-container{
+    text-align:center;
+    
+    padding:80px 0;
+    height: 120%;
+    position: relative;
+    top:-75px;
+    background-color:#c3b298; 
+}
+footer img{
+    width:270px;
+    height:120px;
+    background-size: contain;
+    margin-top:12px;
+    
+}
+footer p{
+    width:100%;
+    font-size:19px;
+    margin-bottom:15px;
+}
+
+
+@media screen and (max-width:680px){
+    
+    .flex-mosaico{
+        display:block;
+    }
+    .item-1-mosaico{
+        width:100%;
+        padding:40%;
+    }
+    .item-2-mosaico{
+        width:100%;
+        margin-top:10px;
+    }
+    .mosaico-espaco{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:920px){
+    .bg{
+        text-align:center;
+    }
+    .form-container{
+        width:96%;
+        max-width:400px;
+        position:static;
+        display:inline-block;
+        float:none;
+        z-index:5;
+        height:110%;
+        background-color: rgba(246, 237, 237, 0.5);
+        margin-right:0px;
+        position:relative;
+        top:-5%;
+        box-shadow: 3px 3px 25px 20px rgb(100,100,100,0.7);
+    }
+    
+
+}
+
+
+@media screen and (max-width:535px){
+    
+    header{
+        text-align:center;
+        height:auto;
+    }
+    .logo-1,.logo-2{
+        float:none;
+        margin:0 auto;
+        margin-top:12px;
+        
+    }
+
+    
+}
+

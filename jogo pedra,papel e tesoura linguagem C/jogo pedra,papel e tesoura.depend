@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1642006674 source:c:\users\adm\documents\jogo pedra,papel e tesoura\main.c
+	<stdio.h>
+	<stdlib.h>
+
