@@ -8,27 +8,25 @@ html,body{
     height:100%;
 }
 
-.box{
-    width:100%;
-    padding:40px 3%;
-    background-color:black;
+nav{
     text-align:center;
-    color:white;
-    font-size:30px;
-    margin:30px 0;
+    padding:27px 4%;
 }
-.box2{
-    background-color:Red;
-}
-.box1{
-    text-align:center;
+
+nav ul{
+    list-style-type:none;
     display:inline-block;
-    transition:2s;
-}
-.minhaclass{
-    color:red;
+    margin:0 15px;
 }
 
+nav ul li{
+    display:inline-block;
+    
+    font-size:16px;
+    text-transform: uppercase;
+}
 
-
-
+nav a{
+    color:black;
+    text-decoration:none;
+}
