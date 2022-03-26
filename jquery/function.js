@@ -10,13 +10,16 @@ $(function(){
                 'beforeSend': function(){
                     console.log('estamos chamando o beforesend');
                 },
-                'timeout': 1000,
+                'timeout': 10000,
                 'url':href,
-                'error':function(){
-                    console.log('ocorreu um erro!!');
+                'error':function(jqXHR,textStatus,errorTHrown){
+                    alert('pagina nao encontrada')
+                },
+
+                'success': function(data){
+                    // $('#container').html(data);
+                     $(data).appendTo('#container').fadeIn();
                 }
-            }).done(function(data){
-                $('#container').html(data);
             })
 
             return false;
