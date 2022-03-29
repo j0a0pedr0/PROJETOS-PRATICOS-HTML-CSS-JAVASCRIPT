@@ -1112,9 +1112,11 @@ section .container-galeria .img-destaque-galeria{
         margin-right:20px;
         cursor:pointer;
     }
+    /*
     header nav.menu-mobile:hover ul{
         display:block;
     }
+    */
     header nav.menu-mobile ul{
         width:100%;
         display:none;
@@ -1130,7 +1132,7 @@ section .container-galeria .img-destaque-galeria{
 
     header nav.menu-mobile ul li{
         text-decoration:none;
-        margin-top:20px;
+        margin-top:30px;
         border-bottom:3px solid rgb(139, 139, 139);
     }
     header nav.menu-mobile ul li:hover a{
@@ -1141,7 +1143,7 @@ section .container-galeria .img-destaque-galeria{
         text-decoration:none;
         color:black;
         font-style:italic;
-        font-size:30px;
+        font-size:42px;
     }
 
     

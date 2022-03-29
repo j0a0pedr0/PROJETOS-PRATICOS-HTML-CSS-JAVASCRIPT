@@ -42,16 +42,15 @@ header nav.mobile-menu{
     background-size:contain;
     background-repeat: no-repeat;
 }
-
+/*
 nav.mobile-menu:hover ul{
     opacity:1;
     display:block;
     transition:1s;
 }
-
+*/
 nav.mobile-menu ul{
-    transition:2s;
-    opacity:0;
+    display:none;
     background-color:white;
     position:absolute;
     width:100%;
@@ -64,17 +63,19 @@ nav.mobile-menu ul{
 }
 
 nav.mobile-menu ul li{
-    padding:8px 0;
+    padding:15px 0;
     width:100%;
     border-bottom:1px solid black;
 }
 nav.mobile-menu ul li:hover{
     background-color:rgb(220,220,220);
+    transition: 1s;
 }
 
 nav.mobile-menu ul li a{
     color:black;
     text-decoration:none;
+    font-size:43px;
 }
 
 header nav ul{

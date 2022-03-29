@@ -31,6 +31,7 @@ header nav.mobile-menu{
     display:none;
     width:20%;
     height:18%;
+    cursor:pointer;
     background-image:url('../image/mobile-menu.png');
     background-size:100% 100%;
     background-repeat:no-repeat; 
@@ -49,10 +50,11 @@ header nav.mobile-menu ul{
     text-align:center;
     z-index:3;
 }
+/*
 header nav.mobile-menu:hover ul{
     display: block;
 }
-
+*/
 header nav.mobile-menu ul{
     display:none;
 }

@@ -1,9 +1,9 @@
 $(function(){
 
    $(window).scroll(function(){
+        var windowOffY = $(window).scrollTop();
+        var windowHeight = $(window).height();
        $('.sessao').each(function(){
-           var windowOffY = $(window).scrollTop();
-           var windowHeight = $(window).height();
            var elOffY = $(this).offset().top;
            if(elOffY+30 < (windowOffY + windowHeight) && 
                 elOffY+30+$(this).height() > windowOffY){
